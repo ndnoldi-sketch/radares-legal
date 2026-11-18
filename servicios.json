@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "nota": "Direcciones de los servicios gratuitos que usa la app Aviso de Radares. Si uno pide que dejemos de usarlo, se cambia aquí y la app lo coge al abrirse, sin actualizarla. Cada una, https y sin parámetros. \"nominatim\": null hace «Buscar» con Photon.",
+  "valhalla": "https://valhalla1.openstreetmap.de/route",
+  "photon": "https://photon.komoot.io/api/",
+  "nominatim": "https://nominatim.openstreetmap.org/search",
+  "openMeteo": "https://api.open-meteo.com/v1/forecast",
+  "wikipedia": "https://es.wikipedia.org/w/api.php"
+}

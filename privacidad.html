@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Aviso de Radares</title>
+<meta name="description" content="Qué datos usa la app Aviso de Radares, para qué y con quién.">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header>
+  <div class="caja">
+    <a class="marca" href="./"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" rx="8" fill="#fff" fill-opacity=".22"/><circle cx="15" cy="15" r="8.5" fill="#fff" stroke="#d6281f" stroke-width="3"/><rect x="10.5" y="12.5" width="9" height="6" rx="1.5" fill="#14212b"/><circle cx="15" cy="15.5" r="1.8" fill="#fff"/></svg>Radares España</a>
+    <h1>Política de privacidad</h1>
+    <p>App «Aviso de Radares» para iPhone y CarPlay (bajo el icono, «Radares»). Última actualización: 18 de noviembre de 2026.</p>
+  </div>
+</header>
+<main>
+
+<div class="tarjeta">
+  <strong>En resumen:</strong> sin cuenta ni registro, sin publicidad, sin analítica y sin rastreo. No vendemos ni cedemos datos.
+  Lo que guardas (puntos, fotos, notas, viajes y rutas) se queda en tu iPhone. Para calcular rutas, buscar sitios, darte el tiempo
+  o el cicerone, la app manda a esos servicios solo lo necesario, sin nada que diga quién eres.
+</div>
+
+<h2>Quién es el responsable</h2>
+<p>La app es de <strong>Radares España</strong>. Para cualquier cosa sobre privacidad, escríbenos a
+<a href="mailto:radarespana@proton.me">radarespana@proton.me</a>.</p>
+
+<h2>Tu ubicación</h2>
+<p>La app usa la ubicación del iPhone, con tu permiso («Al usar la app»), para avisarte de los radares, las cámaras de tráfico y las
+incidencias que tienes delante, guiarte por la ruta y calcular el panel del viaje (velocidad, kilómetros, llegada y gasto).</p>
+<ul>
+  <li>Durante un viaje, o con el iPhone conectado a CarPlay, la sigue usando con el iPhone bloqueado o con otra app delante; iOS lo
+  enseña con el indicador azul. Sin viaje y sin CarPlay, deja de usarla en cuanto la app pasa a segundo plano.</li>
+  <li>No la mandamos a ningún servidor nuestro ni la guardamos fuera de tu iPhone.</li>
+  <li>Si tienes encendido «Guardar el historial de viajes», el recorrido de cada viaje se guarda en tu iPhone para «Mis viajes».</li>
+</ul>
+
+<h2>Lo que se guarda en tu iPhone</h2>
+<p>Tus puntos guardados (sitio, hora, foto y nota), tus viajes y sus recorridos, tus rutas guardadas, tus búsquedas recientes y tus
+ajustes. Todo eso está solo en tu iPhone: lo borras desde la app (Tú → Ajustes) o al borrar la app. Si haces copias de seguridad del
+iPhone, iOS las incluye en ellas, como los datos de cualquier app.</p>
+
+<h2>Lo que sale de tu iPhone, y a quién</h2>
+<p>La app no tiene servidores que guarden datos. Para funcionar usa estos servicios, que solo reciben lo que hace falta para responder
+a cada petición:</p>
+<div class="tabla">
+<table>
+  <thead><tr><th>Para qué</th><th>Servicio</th><th>Qué recibe</th><th>Quién lo da</th></tr></thead>
+  <tbody>
+    <tr><td>Radares, incidencias y precios de las gasolineras</td><td>La web de Aviso de Radares (aviso-radares-n5kp.vercel.app, alojada en Vercel)</td><td>Solo la petición: descarga las listas completas, sin tu ubicación.</td><td>Radares España</td></tr>
+    <tr><td>Calcular rutas y recalcular</td><td><a href="https://valhalla1.openstreetmap.de/">Valhalla</a></td><td>Los puntos de salida y de destino, las opciones de la ruta y, si te sales de ella, tu posición.</td><td>FOSSGIS e.V. (Alemania)</td></tr>
+    <tr><td>Sugerencias del buscador</td><td><a href="https://photon.komoot.io/">Photon</a></td><td>Lo que escribes y, con una o dos palabras, tu posición aproximada (redondeada a 1 km).</td><td>komoot GmbH (Alemania)</td></tr>
+    <tr><td>«Buscar «…»»</td><td><a href="https://nominatim.org/">Nominatim</a></td><td>Lo que escribes y una zona amplia alrededor de tu posición.</td><td>OpenStreetMap Foundation (Reino Unido)</td></tr>
+    <tr><td>El tiempo en la ruta</td><td><a href="https://open-meteo.com/">Open-Meteo</a></td><td>Unos puntos de la ruta (redondeados a 100 m).</td><td>Open-Meteo</td></tr>
+    <tr><td>Cicerone y guía de viaje (si los enciendes)</td><td><a href="https://es.wikipedia.org/">Wikipedia</a></td><td>Un punto unos 2,5 km por delante de ti (redondeado a 100 m), para buscar sitios cercanos.</td><td>Wikimedia Foundation (EE. UU.)</td></tr>
+    <tr><td>El mapa</td><td><a href="https://openfreemap.org/">OpenFreeMap</a></td><td>Los trozos de mapa de la zona que ves.</td><td>Hyperknot Software Kft. (Hungría), con Cloudflare</td></tr>
+    <tr><td>Vídeo del viaje (solo si lo haces)</td><td>Ortofotos <a href="https://pnoa.ign.es/">PNOA</a> y relieve de Terrain Tiles</td><td>Los trozos de foto aérea y de relieve de la zona del viaje.</td><td>Instituto Geográfico Nacional (España) y Amazon Web Services</td></tr>
+    <tr><td>Radares de Cataluña</td><td>Listado del Servei Català de Trànsit</td><td>Solo la petición: descarga el listado completo.</td><td>Generalitat de Catalunya</td></tr>
+    <tr><td>Direcciones de estos servicios</td><td>servicios.json, en GitHub Pages</td><td>Solo la petición, al abrir la app.</td><td>GitHub (EE. UU.)</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Como en cualquier conexión a internet, cada servicio ve la dirección IP de tu conexión y puede guardar registros técnicos durante
+un tiempo limitado según su propia política de privacidad. Ninguno recibe tu nombre, tu correo, identificadores del iPhone ni nada
+más que diga quién eres. No se usan para publicidad ni para seguirte entre apps o webs.</p>
+<p><strong>Dictado de notas.</strong> Si dictas la nota de un punto, la pasa a texto el reconocimiento de voz de Apple; según tu iPhone
+y tus ajustes, el audio puede procesarse en los servidores de Apple, con la política de privacidad de Apple. La nota se guarda solo en
+tu iPhone.</p>
+
+<h2>Permisos que pide la app</h2>
+<ul>
+  <li><strong>Ubicación</strong> (al usar la app): los avisos, la navegación y el panel del viaje.</li>
+  <li><strong>Cámara</strong>: la foto del sitio que guardas como punto.</li>
+  <li><strong>Micrófono y reconocimiento de voz</strong>: dictar la nota de un punto.</li>
+  <li><strong>Fotos</strong> (solo añadir): guardar en Fotos la postal y el vídeo de tu viaje.</li>
+</ul>
+<p>La actividad en directo (pantalla bloqueada, isla dinámica y CarPlay) y la pantalla del coche funcionan en tu iPhone y en tu coche,
+sin servidores.</p>
+
+<h2>Cuando compartes algo</h2>
+<p>La postal, el vídeo, el GPX y el KMZ de un viaje o de una ruta llevan el recorrido y, según el caso, tus puntos, sus fotos y sus
+notas. Solo salen del iPhone si los compartes, y van a donde tú elijas en la hoja de compartir.</p>
+
+<h2>Menores</h2>
+<p>La app no está pensada para menores y no recoge datos de nadie.</p>
+
+<h2>Tus derechos</h2>
+<p>Como no guardamos datos tuyos, de nuestro lado no hay nada que consultar, corregir ni borrar; lo que hay en tu iPhone lo borras tú
+desde la app. Si tienes cualquier duda o quieres ejercer tus derechos de protección de datos, escríbenos a
+<a href="mailto:radarespana@proton.me">radarespana@proton.me</a>. También puedes reclamar ante la
+<a href="https://www.aepd.es/">Agencia Española de Protección de Datos</a>.</p>
+
+<h2>Cambios</h2>
+<p>Si esta política cambia, se actualiza esta página con su fecha.</p>
+
+<p class="suave"><a href="./">Inicio</a> · <a href="soporte.html">Ayuda y contacto</a></p>
+</main>
+</body>
+</html>
